@@ -1,0 +1,47 @@
+@media screen and (max-width:1200px ) {
+	.b03oneTop{padding:25px 25px;}
+	.b03oneTopText dl{font-size: 12px;}
+	.aniImg{height: 120px;}
+	.b03three a img{width: 165%;height:100%;max-width: 165%;margin-left: -32%;}
+	.b03four01{padding: 35px 0px 35px 0px;}
+	.b03four02{padding: 35px 0px 40px 0px;margin-top: 25px;}
+	.footerImg{width: 160px;height: 80px;position: absolute;bottom: -15px;left: 50%;margin-left: -80px;}
+}
+@media screen and (max-width:992px ) {
+	#bs-example-navbar-collapse-1 ul li a{
+		padding-left:3px;padding-right:3px ;
+	}
+	.b02Pic01{border-radius: 10px;overflow: hidden;position: relative; transform: scale(1);height: 300px;  }
+	.b02mainP02{margin:3px 0px 5px 0px;font-size: 16px;}
+	.b02mainP02Eng{color:#1E6A98;font-weight: bold;font-size: 16px;margin:5px 0px 5px 0px}
+	.b02Pic02{border-radius: 10px;overflow: hidden;position: relative; transform: scale(1);width: 100%;height: 100%; margin-top: 20px; }
+	.b03oneTop{padding:15px}
+	.aniImg{height: 110px;}
+	.b03four01 img{margin-top: 10px;}
+	.b03four01 h5{margin-top: 20px;}
+	.b03four02 img{margin-top: 10px;}
+	.b03four02 h5{margin-top: 10px;}
+	.footerImg{width: 120px;height: 60px;position: absolute;bottom: 0px;left: 50%;margin-left: -60px;}
+}
+@media screen and (max-width:768px ) {
+	#bs-example-navbar-collapse-1{
+		background-color: #38B0F9;
+		position: relative;
+		z-index: +999;
+	}
+	#bs-example-navbar-collapse-1 ul li a{
+		padding-left:10px;
+	}
+	.b02mainP02{margin:3px 0px 5px 0px;font-size: 20px;}
+	.b02mainP02Eng{color:#1E6A98;font-weight: bold;font-size: 20px;margin:5px 0px 5px 0px}
+	.b03oneTop{padding:20px 15px;}
+	.aniImg{height: 100px;}
+	.b03twoTop{margin-top: 20px;}
+	.b03three a{display: block;height:100%;border-radius: 10px;overflow: hidden;}
+	.b03four01{margin-top: 20px;}
+	.footer01{line-height: 26px;}
+	.footer01Text01{font-size: 12px;color: white;text-align:center;}
+	.footer01Text02{font-size: 12px;color: white;text-align:center;}
+	.footer01Text01 span,.footer01Text02 span{font-size: 16px;}
+	.footer02{padding-top: 20px;padding-bottom: 20px;}
+}

@@ -1,0 +1,640 @@
+body {
+	font: 12px/1.5 '微软雅黑', tahoma, arial, 宋体;
+}
+
+.topBar {
+	height: 30px;
+	border-bottom: solid 1px #efefef;
+	background-color: #e4e4e4;
+	font-size: 12px;
+	position: relative;
+}
+.topBar .rightAd{
+	position: absolute;
+    top: 30px;
+    right: 0;
+    z-index: +999;
+}
+
+.topBarMain {
+	width: 1200px;
+	margin: 0 auto;
+	height: 30px;
+	line-height: 30px;
+}
+
+.topBarMainL {
+	display: block;
+	background: url(../img/mall/sprite0519.png) 0 0 no-repeat;
+	padding-left: 20px;
+	height: 30px;
+	font-size: 12px;
+	width: 70px;
+	float: left;
+	color: #6F6D6E;
+}
+
+.topBarMainR {
+	width: 760px;
+	float: right;
+}
+
+.topBarMainR li {
+	float: right;
+	margin-left: 30px;
+}
+
+.topBarMainR li a {
+	color: #6F6D6E;
+}
+
+.topBarMainR .addWB {
+	background: url(../img/mall/sprite0519.png) 0 -26px no-repeat;
+	color: #f2008b;
+	padding-left: 28px;
+}
+
+.topBarMainR .addWB a {
+	color: #f2008b;
+}
+
+.topBarMainR span {
+	margin-left: 3px;
+	color: #936D92;
+}
+
+.topBarMainR .cityHi {
+	color: #f2008b
+}
+
+.topTitle {
+	height: 112px;
+	background: url(../img/mall/top_info_bg.jpg);
+	font-size: 12px;
+}
+
+.topTitleMain {
+	height: 112px;
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.topTitleL {
+	display: block;
+	width: 315px;
+	float: left;
+	margin-top: 20px;
+}
+
+.topTitleR {
+	float: right;
+	width: 500px;
+	margin: 35px 0;
+	overflow: hidden;
+	height: 40px;
+}
+
+.topTitleR a {
+	color: #666666;
+	font-weight: bold;
+}
+
+.topTitleR a span {
+	font-weight: 100;
+}
+
+.topTitleR li {
+	float: right;
+	height: 37px;
+	padding: 3px 0 0 42px;
+	margin-left: 24px;
+	background: url(../img/mall/sprite0519.png) no-repeat;
+}
+
+.topTitleR .info01 {
+	background-position: -113px 0px;
+}
+
+.topTitleR .info02 {
+	background-position: -113px -40px;
+}
+
+.topTitleR .info03 {
+	background-position: -113px -80px;
+}
+
+.topTitleR .info04 {
+	background-position: -113px -120px;
+}
+
+
+/*headerStop*/
+
+nav {
+	background: #FFF;
+	border-bottom: solid 2px #0087cf;
+	height: 45px;
+	font-size: 12px;
+}
+
+.navMain {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.navBarL {
+	float: left;
+	width: 850px;
+	font: bold 14px/26px "微软雅黑";
+}
+
+.navBarL li {
+	float: left;
+	padding: 10px 15px;
+}
+
+.navBarL li a {
+	color: #666666;
+}
+
+.navBarL li a:hover {
+	color: #F20088
+}
+
+.navBarL .navTitle {
+	padding: 8px 13px;
+}
+
+.navBarL .navTitle a {
+	display: inline-block;
+	padding: 2px 3px 2px 4px;
+}
+
+.navBarL .navTitle a:hover {
+	color: white;
+	background: url(../img/mall/sprite0519.png) right -751px no-repeat;
+	border-radius: 3px;
+}
+
+.navBarL .line {
+	padding: 10px 0;
+	font-size: 10px;
+	font-weight: 100;
+	color: #E0DAE0;
+}
+
+.search {
+	background-color: #f7f7f7;
+	border: solid 1px #d0d0d0;
+	float: left;
+	height: 26px;
+	width: 184px;
+	margin-top: 8px;
+}
+
+.searchIcon {
+	background: url(../img/mall/sprite0519.png) 0 -132px no-repeat;
+	float: left;
+	height: 26px;
+	margin: 0 5px 0 7px;
+	width: 20px;
+}
+
+#searchInput {
+	width: 122px;
+	background-color: #f7f7f7;
+	border: none;
+	float: left;
+	height: 26px;
+	line-height: 26px;
+}
+
+#submit {
+	background: url(../img/mall/sprite0519.png) -23px -132px no-repeat;
+	;
+	width: 20px;
+	margin: 0 5px;
+	cursor: pointer;
+	border: none;
+	float: left;
+	height: 26px;
+	line-height: 26px;
+}
+
+.myCar {
+	float: left;
+	background-color: yellow;
+	height: 100%;
+	margin-left: 10px;
+	width: 130px;
+	font: bold 13px/45px "微软雅黑";
+}
+
+.myCarT {
+	background-color: #f20088;
+	display: inline-block;
+	float: left;
+	text-align: center;
+	width: 105px;
+	color: #fff;
+}
+
+.iCar {
+	background: url(../img/mall/sprite0519.png) -40px -130px no-repeat;
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+}
+
+.myCartA {
+	background-color: #b70066;
+	color: #fff;
+	display: inline-block;
+	float: left;
+	height: 45px;
+	text-align: center;
+	width: 25px;
+}
+
+.myCartA i {
+	background: url(../img/mall/sprite0519.png) -1px -91px no-repeat;
+	display: inline-block;
+	height: 45px;
+	width: 10px;
+}
+
+.blueBar {
+	font-size: 14px;
+	width: 100%;
+	height: 32px;
+	line-height: 32px;
+	background-color: #0087cf;
+}
+
+.blueBarMain {
+	width: 1200px;
+	margin: 0 auto;
+	text-align: right;
+}
+
+.blueBarMain a {
+	color: white;
+}
+footer {
+	background: #ebebeb url(../img/mall/bottom_bg_x.png) 0 0 repeat-x;
+	margin-top: 25px;
+	width: 100%;
+	overflow: hidden;
+	min-width: 1024px;
+}
+
+.footTop {
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.footTop .botTit {
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+
+.footTop .botTit li {
+	margin-right: 39px;
+	color: #fff;
+	font: bold 14px/45px "微软雅黑";
+	height: 45px;
+	float: left;
+	padding: 20px 0;
+}
+
+.footTop .botTit li i {
+	margin-right: 15px;
+	background: url(../img/mall/sprite0519.png) no-repeat;
+	display: inline-block;
+	height: 45px;
+	width: 45px;
+	float: left;
+}
+
+.footTop .botTit .col01 i {
+	background-position: -106px -325px;
+}
+
+.footTop .botTit .col02 i {
+	background-position: -106px -370px;
+}
+
+.footTop .botTit .col03 {
+	padding: 0;
+}
+
+.footTop .botTit .col03 i {
+	background: url(../img/mall/sprite0523.png) 3px -465px no-repeat;
+	width: 293px;
+	height: 84px;
+}
+
+.footTop .botTit .col04 i {
+	background-position: -106px -415px;
+}
+
+.footTop .botTit .col05 i {
+	background-position: -106px -460px;
+}
+
+.footTop .botTit .col05 {
+	margin-right: 0;
+}
+
+.footTop .botTit li span {
+	display: inline-block;
+	float: left;
+}
+
+.footTop .botNav {
+	margin: 0 0 35px 10px;
+	overflow: hidden;
+}
+
+.footTop .botNav .botNavCol {
+	margin-right: 112px;
+	float: left;
+}
+
+.footTop .botNav .botNavCol a:hover {
+	color: #f20088;
+}
+
+.footTop .botNav .botNavCol dt {
+	font: bold 15px/36px "微软雅黑";
+}
+
+.footTop .botNav .botNavCol dd a {
+	color: #666;
+	display: block;
+	font: normal 13px/22px "微软雅黑";
+}
+
+.footTop .botNav .botMap {
+	float: right;
+	margin-right: 0;
+	height: 173px;
+	width: 450px;
+}
+
+.footTop .botNav .botMap a {
+	background: url(../img/mall/sprite0523.png) 0 -243px no-repeat;
+	display: block;
+	height: 173px;
+	width: 450px;
+	font-size: 0;
+	line-height: 0;
+}
+
+.footTop .botLink {
+	border: solid #e2e2e2;
+	border-width: 1px 0;
+	overflow: hidden;
+	margin-bottom: 35px;
+	padding: 15px 30px 15px 10px;
+	position: relative;
+}
+
+.footTop .botLink .botLinkCon a:hover {
+	color: #f20088;
+}
+
+.footTop .botLink .botLinkCon dt {
+	font-weight: bold;
+	float: left;
+	width: 65px;
+}
+
+.footTop .botLink .botLinkCon dd {
+	width: 1095px;
+	float: left;
+	line-height: 22px;
+	height: 44px;
+	overflow: hidden;
+}
+
+.footTop .botLink .botLinkCon .linkHeight {
+	height: 66px;
+}
+
+.footTop .botLink .botLinkCon dd a {
+	float: left;
+	color: #909090;
+	white-space: nowrap;
+}
+
+.footTop .botLink .botLinkCon dd span {
+	float: left;
+	color: #909090;
+	margin: 0 6px;
+}
+
+.footTop .botLink i {
+	background: url(../img/mall/sprite0519.png) -93px -504px no-repeat;
+	height: 19px;
+	width: 57px;
+	font-size: 0;
+	line-height: 0;
+	position: absolute;
+	bottom: 17px;
+	left: 8px;
+}
+
+.footTop .botLink .linkMore {
+	cursor: pointer;
+	background: url(../img/mall/sprite0519.png) no-repeat;
+	height: 16px;
+	width: 16px;
+	font-size: 0;
+	line-height: 0;
+	position: absolute;
+	bottom: 17px;
+	right: 10px;
+}
+
+.footTop .botLink .linkMore.hoverUp {
+	background-position: -117px -524px;
+}
+
+.footTop .botLink .linkMore.hoverUp.hoverDown {
+	background-position: -135px -524px;
+}
+
+.qqHide {
+	display: none;
+}
+
+footer .footDown {
+	background-color: white;
+	overflow: hidden;
+}
+
+footer .footDown .botSafeWrap {
+	width: 1200px;
+	margin: 0 auto;
+	padding: 35px 0;
+}
+
+footer .footDown .botSafeWrap .botSafeNav {
+	height: 40px;
+	border-bottom: solid 1px #f6f6f6;
+	padding-bottom: 30px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+footer .footDown .botSafeWrap .botSafeNav a {
+	background: url(../img/mall/sprite0519.png) no-repeat;
+	display: inline-block;
+	float: left;
+	font-size: 0;
+	line-height: 0;
+	margin-right: 57px;
+}
+
+footer .footDown .botSafeWrap .botSafeNav .alipay {
+	background-position: 0 -559px;
+	height: 27px;
+	width: 78px;
+}
+
+footer .footDown .botSafeWrap .botSafeNav .bankUser {
+	background-position: 0 -585px;
+	height: 27px;
+	width: 143px;
+}
+
+footer .footDown .botSafeWrap .botSafeNav .network {
+	background-position: 0 -613px;
+	height: 36px;
+	width: 96px;
+}
+
+footer .footDown .botSafeWrap .botSafeNav .unInfo {
+	background-position: 0 -650px;
+	height: 30px;
+	width: 85px;
+}
+
+footer .footDown .botSafeWrap .botSafeNav .consumer {
+	background-position: 0 -715px;
+	height: 36px;
+	width: 117px;
+}
+
+footer .footDown .botSafeWrap .botSafeNav .knetseal {
+	background: none;
+	height: 34px;
+	width: 93px;
+}
+
+footer .footDown .botSafeWrap .botSafeNav .gdws {
+	background-position: 0 -797px;
+	height: 35px;
+	width: 99px;
+}
+
+footer .footDown .botSafeWrap p {
+	color: #898989;
+	width: 555px;
+	float: left;
+	margin-top: 15px;
+}
+
+footer .footDown .botSafeWrap p a {
+	color: #666;
+	text-decoration: none;
+}
+
+footer .footDown .botSafeWrap .qrcode {
+	display: block;
+	float: right;
+	width: 424px;
+	height: 90px;
+	margin: -17px 0px 0px 0px;
+	background: url(../img/mall/QRcode.jpg) left center no-repeat;
+}
+
+footer .footDown .botSafeWrap p {
+	color: #898989;
+	width: 555px;
+	float: left;
+	margin-top: 15px;
+}
+
+footer .footDown .botSafeWrap .qrcode {
+	display: block;
+	float: right;
+	width: 424px;
+	height: 90px;
+	margin: -17px 0px 0px 0px;
+	background: url(../img/mall/QRcode.jpg) left center no-repeat;
+}
+
+footer .footDown .botSafeWrap .botLogo {
+	margin-right: 0;
+	margin-top: 22px;
+	background: url(../img/mall/sprite0523.png) 0 -417px no-repeat;
+	float: right;
+	height: 47px;
+	width: 222px;
+}
+
+	.topBarMain {
+		width: 980px;
+	}
+	.topTitleMain {
+		width: 980px;
+	}
+	.navMain {
+		width: 980px;
+	}
+	.navBarL {
+		width: 650px;
+	}
+	.navBarL li {
+		padding: 10px 4px;
+	}
+	.navBarL .navTitle {
+		padding: 8px 5px;
+	}
+	.blueBarMain {
+		width: 980px;
+	}
+	
+.footTop{
+	width: 980px;
+}
+footer .footDown .botSafeWrap{
+	width: 980px;
+}
+.footTop .botTit li{
+	margin-right: 15px;}
+	.footTop .botTit .col03 i{
+	background: url(../img/mall/sprite0523.png) -6px -551px no-repeat;
+width: 219px;
+height: 84px;
+margin-right: 0;
+}
+	.footTop .botTit .col03{
+		margin-right: 10px;
+	}
+	.footTop .botNav .botNavCol{
+	margin-right: 57px;
+	float: left;
+}
+.footTop .botLink .botLinkCon dd{
+width: 875px;}
+.footTop .botLink .botLinkCon .linkHeight{
+	height: 88px;
+}
+footer .footDown .botSafeWrap .botSafeNav a{
+	margin-right: 29px;
+}

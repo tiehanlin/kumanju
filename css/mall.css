@@ -1,0 +1,1422 @@
+body {
+	font: 12px/1.5 '微软雅黑', tahoma, arial, 宋体;
+}
+.topBar {
+	height: 30px;
+	border-bottom: solid 1px #efefef;
+	background-color: #e4e4e4;
+	font-size: 12px;
+	position: relative;
+}
+.topBar .rightAd{
+	position: absolute;
+    top: 30px;
+    right: 0;
+    z-index: +999;
+}
+
+.topBarMain {
+	width: 1200px;
+	margin: 0 auto;
+	height: 30px;
+	line-height: 30px;
+}
+
+.topBarMainL {
+	display: block;
+	background: url(../img/mall/sprite0519.png) 0 0 no-repeat;
+	padding-left: 20px;
+	height: 30px;
+	font-size: 12px;
+	width: 70px;
+	float: left;
+	color: #6F6D6E;
+}
+
+.topBarMainR {
+	width: 760px;
+	float: right;
+}
+
+.topBarMainR li {
+	float: right;
+	margin-left: 30px;
+}
+
+.topBarMainR li a {
+	color: #6F6D6E;
+}
+
+.topBarMainR .addWB {
+	background: url(../img/mall/sprite0519.png) 0 -26px no-repeat;
+	color: #f2008b;
+	padding-left: 28px;
+}
+
+.topBarMainR .addWB a {
+	color: #f2008b;
+}
+
+.topBarMainR span {
+	margin-left: 3px;
+	color: #936D92;
+}
+
+.topBarMainR .cityHi {
+	color: #f2008b
+}
+
+.topTitle {
+	height: 112px;
+	background: url(../img/mall/top_info_bg.jpg);
+	font-size: 12px;
+}
+
+.topTitleMain {
+	height: 112px;
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.topTitleL {
+	display: block;
+	width: 315px;
+	float: left;
+	margin-top: 20px;
+}
+
+.topTitleR {
+	float: right;
+	width: 500px;
+	margin: 35px 0;
+	overflow: hidden;
+	height: 40px;
+}
+
+.topTitleR a {
+	color: #666666;
+	font-weight: bold;
+}
+
+.topTitleR a span {
+	font-weight: 100;
+}
+
+.topTitleR li {
+	float: right;
+	height: 37px;
+	padding: 3px 0 0 42px;
+	margin-left: 24px;
+	background: url(../img/mall/sprite0519.png) no-repeat;
+}
+
+.topTitleR .info01 {
+	background-position: -113px 0px;
+}
+
+.topTitleR .info02 {
+	background-position: -113px -40px;
+}
+
+.topTitleR .info03 {
+	background-position: -113px -80px;
+}
+
+.topTitleR .info04 {
+	background-position: -113px -120px;
+}
+
+
+/*headerStop*/
+
+nav {
+	background: #FFF;
+	border-bottom: solid 2px #0087cf;
+	height: 45px;
+	font-size: 12px;
+}
+
+.navMain {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.navBarL {
+	float: left;
+	width: 850px;
+	font: bold 14px/26px "微软雅黑";
+}
+
+.navBarL li {
+	float: left;
+	padding: 10px 15px;
+}
+
+.navBarL li a {
+	color: #666666;
+}
+
+.navBarL li a:hover {
+	color: #F20088
+}
+
+.navBarL .navTitle {
+	padding: 8px 13px;
+}
+
+.navBarL .navTitle a {
+	display: inline-block;
+	padding: 2px 3px 2px 4px;
+}
+
+.navBarL .navTitle a:hover {
+	color: white;
+	background: url(../img/mall/sprite0519.png) right -751px no-repeat;
+	border-radius: 3px;
+}
+
+.navBarL .line {
+	padding: 10px 0;
+	font-size: 10px;
+	font-weight: 100;
+	color: #E0DAE0;
+}
+
+.search {
+	background-color: #f7f7f7;
+	border: solid 1px #d0d0d0;
+	float: left;
+	height: 26px;
+	width: 184px;
+	margin-top: 8px;
+}
+
+.searchIcon {
+	background: url(../img/mall/sprite0519.png) 0 -132px no-repeat;
+	float: left;
+	height: 26px;
+	margin: 0 5px 0 7px;
+	width: 20px;
+}
+
+#searchInput {
+	width: 122px;
+	background-color: #f7f7f7;
+	border: none;
+	float: left;
+	height: 26px;
+	line-height: 26px;
+}
+
+#submit {
+	background: url(../img/mall/sprite0519.png) -23px -132px no-repeat;
+	;
+	width: 20px;
+	margin: 0 5px;
+	cursor: pointer;
+	border: none;
+	float: left;
+	height: 26px;
+	line-height: 26px;
+}
+
+.myCar {
+	float: left;
+	background-color: yellow;
+	height: 100%;
+	margin-left: 10px;
+	width: 130px;
+	font: bold 13px/45px "微软雅黑";
+}
+
+.myCarT {
+	background-color: #f20088;
+	display: inline-block;
+	float: left;
+	text-align: center;
+	width: 105px;
+	color: #fff;
+}
+
+.iCar {
+	background: url(../img/mall/sprite0519.png) -40px -130px no-repeat;
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+}
+
+.myCartA {
+	background-color: #b70066;
+	color: #fff;
+	display: inline-block;
+	float: left;
+	height: 45px;
+	text-align: center;
+	width: 25px;
+}
+
+.myCartA i {
+	background: url(../img/mall/sprite0519.png) -1px -91px no-repeat;
+	display: inline-block;
+	height: 45px;
+	width: 10px;
+}
+
+.blueBar {
+	font-size: 14px;
+	width: 100%;
+	height: 32px;
+	line-height: 32px;
+	background-color: #0087cf;
+}
+
+.blueBarMain {
+	width: 1200px;
+	margin: 0 auto;
+	text-align: right;
+}
+
+.blueBarMain a {
+	color: white;
+}
+.banner {
+	width: 100%;
+	height: 500px;
+	overflow: hidden;
+	position: relative;
+}
+
+.banner>ul {
+	display: none;
+	width: 100%;
+	/*width: 999999999px;*/
+	height: 500px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.banner>ul>li {
+	float: left;
+	width: 100%;
+	height: 500px;
+	cursor: pointer;
+}
+
+.banner>ul>li>a {
+	display: block;
+	font-size: 200px;
+	text-align: center;
+	height: 500px;
+	font-weight: bold;
+	width: 100%;
+}
+
+.banner>ul>li>a>img {
+	width: 100%;
+	height: 100%;
+}
+
+.lunbo01 {
+	background: url(../img/mall/banner01.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+
+.lunbo02 {
+	background: url(../img/mall/banner02.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+
+.lunbo03 {
+	background: url(../img/mall/banner03.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+
+.lunbo04 {
+	background: url(../img/mall/banner04.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+
+.lunbo05 {
+	background: url(../img/mall/banner05.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+
+.left-btn,
+.right-btn {
+	width: 61px;
+	height: 61px;
+	position: absolute;
+	top: 45%;
+	right: 30px;
+	background: url("../img/right-1.png");
+	cursor: pointer;
+}
+
+.left-btn {
+	left: 30px;
+	background: url("../img/left-1.png");
+}
+
+.img-btn-list {
+	width: 100%;
+	position: absolute;
+	bottom: 20px;
+	left: 0;
+	text-align: center;
+}
+
+.img-btn-list>span {
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	border-radius: 12px;
+	margin: 0 5px;
+	background: #FFF;
+	cursor: pointer;
+}
+
+.img-btn-list>span.current {
+	background: #0087CF;
+}
+
+.left-btn {
+	position: absolute;
+	top: 175px;
+	left: 10%;
+	width: 50px;
+	height: 150px;
+	background: #000 url(../img/mall/silder_btn.gif) left center no-repeat;
+	opacity: 0.33;
+	display: none;
+	transition: all 500ms;
+}
+
+.left-btn:hover,
+.right-btn:hover {
+	opacity: 0.66;
+}
+
+.right-btn {
+	position: absolute;
+	top: 175px;
+	right: 10%;
+	width: 50px;
+	height: 150px;
+	background: #000 url(../img/mall/silder_btn.gif) right center no-repeat;
+	opacity: 0.33;
+	display: none;
+	transition: all 500ms;
+}
+
+.bodyer01 {
+	width: 1200px;
+	background-color: #ebebeb;
+	height: 194px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.b01ani {
+	float: left;
+	display: inline-block;
+	height: 160px;
+	margin-left: 35px;
+	width: 56px;
+	background: url(../img/mall/sprite0519.png) 0 -154px no-repeat;
+}
+
+.b01leftBtn {
+	background: url(../img/mall/sprite0519.png) -61px -160px no-repeat;
+	float: left;
+	display: inline-block;
+	height: 160px;
+	margin: 0 10px;
+	width: 30px;
+}
+
+.b01rightBtn {
+	background: url(../img/mall/sprite0519.png) -96px -160px no-repeat;
+	float: right;
+	display: inline-block;
+	height: 160px;
+	margin: 0 10px;
+	width: 30px;
+}
+
+.cartoonMen {
+	height: 177px;
+}
+
+.cartoonMen li {
+	float: left;
+	margin: 0 15px;
+}
+
+.bodyer02 {
+	overflow: hidden;
+	width: 1200px;
+	margin: 30px auto 0;
+}
+
+.b02title {
+	background-color: #0087cf;
+	border-bottom: solid 1px #0079c8;
+	color: #efefef;
+	font: bold 12px/32px "微软雅黑";
+	height: 32px;
+	padding-left: 20px;
+}
+
+.b02main {
+	overflow: hidden;
+	border: solid #d0d0d0;
+	border-width: 0 1px 1px;
+	padding: 15px 15px 0;
+}
+
+.b02main li {
+	border: solid 1px #d7d7d7;
+	float: left;
+	padding: 5px;
+	margin-bottom: 15px;
+}
+
+.b02Pic {
+	float: left;
+	width: 360px;
+	overflow: hidden;
+}
+
+.b02info {
+	float: left;
+	color: #888;
+	font: normal 12px/20px "微软雅黑";
+	height: 214px;
+	margin: 0 20px;
+	width: 172px;
+	overflow: hidden;
+}
+
+.b02info h4 {
+	color: #0078b8;
+	font: normal 14px/20px "微软雅黑";
+	margin: 20px 0 10px;
+}
+
+.b02info h4 a {
+	color: #0078b8;
+	display: block;
+	height: 20px;
+}
+
+.b02info h5 {
+	font-weight: normal;
+	line-height: 32px;
+	font-size: 100%;
+}
+
+.sendPhone {
+	background: url(../img/mall/sprite0519.png) -139px -194px no-repeat;
+	height: 36px;
+	padding-left: 14px;
+	line-height: 36px;
+	display: block;
+	color: #666666;
+}
+
+.sendPhone:hover {
+	color: #F52FA4;
+}
+
+.detailInfo {
+	color: #0078b8;
+	line-height: 24px;
+	display: block;
+}
+
+.b02info .o2o {
+	background: url(../img/mall/sprite0519.png) -132px -229px no-repeat;
+	color: #f20088;
+	padding-left: 22px;
+}
+
+.nameO2o {
+	margin-top: 15px;
+	border: solid 1px #f4f4f3;
+	border-radius: 5px;
+	height: 16px;
+	line-height: 16px;
+	width: 128px;
+	background: url(../img/mall/sprite0519.png) -130px -251px no-repeat;
+	padding: 2px 5px 2px 25px;
+}
+
+.phoneO2o {
+	margin: 5px 0 15px;
+	border: solid 1px #f4f4f3;
+	border-radius: 5px;
+	height: 16px;
+	line-height: 16px;
+	width: 128px;
+	background: url(../img/mall/sprite0519.png) -130px -272px no-repeat;
+	padding: 2px 5px 2px 25px;
+}
+
+.sureJoin span {
+	color: #0078b8;
+	float: left;
+	margin-right: 5px;
+}
+
+.sureJoin i {
+	background: url(../img/mall/sprite0519.png) -135px -292px no-repeat;
+	display: inline-block;
+	float: left;
+	height: 20px;
+	width: 15px;
+}
+
+.bodyer03 {
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 20px;
+	overflow: hidden;
+}
+
+.bodyer03 h4 {
+	color: #313131;
+	font-size: 14px;
+	height: 40px;
+	line-height: 40px;
+}
+
+.hotGaint {
+	float: left;
+	width: 400px;
+	height: 400px;
+}
+
+.hotfour {
+	float: left;
+	width: 580px;
+	margin-left: 5px;
+}
+
+.hotfourImg01 {
+	margin-bottom: 2px;
+}
+
+.hotRight {
+	width: 210px;
+	float: right;
+	border: solid 1px #d0d0d0;
+	overflow: hidden;
+}
+
+.hotRight .weixinSS {
+	padding: 15px 0 12px 8px;
+}
+
+.hotRight .weixinSS img {
+	width: 100%;
+	height: 100%;
+}
+
+.webReport {
+	overflow: hidden;
+}
+
+.webReport h5 {
+	background-color: #e3e3e3;
+	color: #007bbc;
+	font: bold 14px/30px "微软雅黑";
+	height: 30px;
+	padding-left: 8px;
+}
+
+.webReport ul {
+	color: #a5a5a5;
+	margin: 12px 8px;
+	height: 132px;
+	overflow: hidden;
+}
+
+.webReport ul li a {
+	color: #888;
+	display: block;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	width: 200px;
+	line-height: 22px;
+}
+
+.webReport ul li a:hover {
+	color: #F52FA4;
+}
+
+.adsIcon {
+	padding: 0 8px 15px;
+	float: left;
+}
+
+.adsIcon span {
+	float: left;
+	display: inline-block;
+	width: 52px;
+	margin: 0 5px;
+}
+
+.adsIcon span i {
+	background: url(../img/mall/sprite0519.png) no-repeat;
+	display: block;
+	height: 41px;
+	width: 52px;
+}
+
+.adsIcon span .icon01 {
+	background-position: -108px -40px;
+}
+
+.adsIcon span .icon02 {
+	background-position: -108px -80px;
+}
+
+.adsIcon span .icon03 {
+	background-position: -108px -120px;
+}
+
+.adsIcon span b {
+	color: #0087cf;
+	display: block;
+	font-weight: normal;
+	line-height: 24px;
+}
+
+.adsIcon span b {
+	color: #0087cf;
+	display: block;
+	font-weight: normal;
+	line-height: 24px;
+}
+
+.bodyer04 {
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 20px;
+	overflow: hidden;
+	position: relative;
+}
+
+.bodyer04 h5 {
+	height: 24px;
+	text-align: right;
+}
+
+.bodyer04 h5 a {
+	color: #0087cf;
+	font: bold 12px/24px "微软雅黑";
+	height: 24px;
+}
+
+.bodyer04.girls h5 a {
+	color: #f47fb1;
+}
+
+.bodyer04 h5 a:hover {
+	text-decoration: underline;
+}
+
+.bodyer04 i {
+	display: block;
+	top: 0;
+	position: absolute;
+	z-index: 10;
+	background: url(../img/mall/sprite0519.png) no-repeat;
+	height: 115px;
+	width: 77px;
+	left: 15px;
+}
+
+.bodyer04 .b04tab01 {
+	background-position: 0 -327px;
+}
+
+.bodyer04 .b04tab02 {
+	background-position: 0 -443px;
+}
+
+.bodyer04 .b04bigPic {
+	width: 980px;
+	float: left;
+	height: 452px;
+	overflow: hidden;
+}
+
+.bodyer04 .b04bigPic li {
+	position: absolute;
+	overflow: hidden;
+	width: 980px;
+}
+
+.bodyer04 .b04bigPic li a img {
+	width: 980px;
+	height: 452px;
+}
+
+.bodyer04 .b04smallPic {
+	width: 216px;
+	overflow: hidden;
+	float: right;
+}
+
+.bodyer04 .b04smallPic li {
+	width: 220px;
+	height: 148px;
+	overflow: hidden;
+	padding-bottom: 4px;
+}
+
+.bodyer04 .b04smallPic li a {
+	display: block;
+	width: 216px;
+	height: 148px;
+}
+
+.bodyer04 .b04smallPic li a img {
+	width: 216px;
+	height: 148px;
+}
+
+.bodyer04 .b04smallPic li a.hover {
+	border: 4px solid #0087cf;
+	width: 208px;
+	height: 140px;
+}
+
+.bodyer04.girls .b04smallPic li a.hover {
+	border: 4px solid #f47fb1;
+}
+
+.bodyer04 .b04smallPic li a.hover img {
+	width: 208px;
+	height: 140px;
+}
+
+.bodyer05 {
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 20px;
+	overflow: hidden;
+	position: relative;
+}
+
+.bodyer05 i {
+	display: block;
+	top: 0;
+	position: absolute;
+	z-index: 10;
+	background: url(../img/mall/sprite0523.png) no-repeat;
+	height: 115px;
+	width: 77px;
+	left: 14px;
+}
+
+.bodyer05.animate .tab {
+	background-position: 0 -849px;
+}
+
+.bodyer05.easy .tab {
+	background-position: -78px -849px;
+}
+
+.bodyer05.wood .tab {
+	background-position: -156px -849px;
+}
+
+.bodyer05 h5 {
+	height: 24px;
+	text-align: right;
+}
+
+.bodyer05 h5 a {
+	font: bold 12px/24px "微软雅黑";
+	height: 24px;
+}
+
+.bodyer05.animate h5 a {
+	color: #ed9b19;
+}
+
+.bodyer05.easy h5 a {
+	color: #ed1955;
+}
+
+.bodyer05.wood h5 a {
+	color: #38ac66;
+}
+
+.bodyer05 h5 a:hover {
+	text-decoration: underline;
+}
+
+.bodyer05 .b05pic {
+	float: left;
+	display: block;
+	height: 330px;
+	margin: 0 5px 5px 0;
+}
+
+.bodyer05 .b05picB {
+	float: left;
+	display: block;
+	height: 330px;
+	margin: 0 5px 5px 0;
+}
+
+.bodyer05 .b05pic img {
+	height: 330px;
+	width: 236px;
+}
+
+.bodyer05 .b05picB img {
+	height: 330px;
+	width: 718px;
+}
+
+.bodyer05 .b05pic.noMar {
+	margin-right: 0;
+}
+
+.bodyer06 {
+	width: 1200px;
+	margin: 15px auto 0;
+	overflow: hidden;
+}
+
+.bodyer06 .b06a {
+	width: 400px;
+	margin-bottom: 1px;
+	background: url(../img/mall/sprite0523.png) no-repeat;
+	display: inline-block;
+	float: left;
+	height: 80px;
+}
+
+.bodyer06 .b06a.a1 {
+	background-position: -1px 0;
+}
+
+.bodyer06 .b06a.a2 {
+	background-position: 0 -81px;
+}
+
+.bodyer06 .b06a.a3 {
+	background-position: 1px -162px;
+}
+
+.bodyer06 .a4 {
+	background: url(../img/mall/green_ads_1200.gif) 0 0 no-repeat;
+	/*background-size: cover;*/
+	width: 1200px;
+	clear: both;
+	display: block;
+	height: 232px;
+}
+
+
+.bodyer07{
+	width: 1200px;
+	margin: 0 auto;
+}
+.b07main{
+	overflow: hidden;
+}
+.b07main .b07tab{
+	width: 444px;
+	float: left;
+}
+.b07main .b07tab.tab03{
+	width: 312px;
+}
+.b07main .b07tab.tab03 .b07tabTitle li{
+	width: 154px;
+}
+.b07main .b07tab .b07tabTitle{
+	border-left: solid 1px #e1eef5;
+	margin-bottom: 20px;
+overflow: hidden;
+}
+.b07main .b07tab .b07tabTitle li{
+	width: 155px;
+	background-color: #fafbfd;
+border: solid #e1eef5;
+border-width: 1px 1px 1px 0;
+cursor: pointer;
+color: #96c0d7;
+float: left;
+font: bold 14px/30px "微软雅黑";
+height: 30px;
+text-align: center;
+}
+.b07main .b07tab .b07tabTitle li a{
+	color: #666;
+}
+.b07main .b07tab .b07tabTitle li a:hover{
+	color: #f20088;
+}
+.b07main .b07tab .b07tabTitle li.noCon{
+	width: 130px;
+}
+.b07main .b07tab .b07tabTitle li.cur{
+	background-color: #fff;
+border-bottom: none;
+color: #40ace6;
+}
+.b07main .b07tab .b07tabText .newsPic{
+	margin: 0 0 10px 10px;
+position: relative;
+height: 100px;
+width: 295px;
+}
+.b07main .b07tab .b07tabText p{
+bottom: 0;
+left: 0;
+position: absolute;
+height: 24px;
+z-index: 10;
+width: 295px;
+}
+.b07main .b07tab .b07tabText .newsMask{
+	background-color: #000;
+opacity: 0.65;
+z-index: 9;
+}
+.b07main .b07tab .b07tabText .newsTxt{
+	text-align: center;
+	color: #fff;
+font: normal 12px/24px "微软雅黑";
+z-index: 10;
+}
+.b07main .b07tab .b07tabText .newsCon{
+	margin: 0 0 0 10px;
+	overflow: hidden;
+}
+.b07main .b07tab .b07tabText .newsCon.conDrop{
+	display: block !important;
+}
+.b07main .b07tab .b07tabText .newsCon li{
+	font: normal 14px/24px "微软雅黑";
+color: #878787;
+}
+.b07main .b07tab .b07tabText .newsCon li a{
+	background: url(../img/mall/sprite0519.png) -130px -724px no-repeat;
+color: #878787;
+display: block;
+padding-left: 20px;
+width: 275px;
+overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;
+
+}
+.b07main .newsDropUp{
+	margin-top: 10px;
+width: 100%;
+border-top: solid 1px #e1eef5;
+height: 17px;
+float: left;
+}
+.b07main .newsDropUp a{
+	cursor: pointer;
+width: 38px;
+background: url(../img/mall/sprite0519.png) -112px -542px no-repeat;
+border-top: solid 1px #e1eef5;
+height: 17px;
+line-height: 0;
+font-size: 0;
+display: block;
+margin: -1px auto 0;
+}
+footer {
+	background: #ebebeb url(../img/mall/bottom_bg_x.png) 0 0 repeat-x;
+	margin-top: 25px;
+	width: 100%;
+	overflow: hidden;
+	min-width: 1024px;
+}
+
+.footTop {
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.footTop .botTit {
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+
+.footTop .botTit li {
+	margin-right: 39px;
+	color: #fff;
+	font: bold 14px/45px "微软雅黑";
+	height: 45px;
+	float: left;
+	padding: 20px 0;
+}
+
+.footTop .botTit li i {
+	margin-right: 15px;
+	background: url(../img/mall/sprite0519.png) no-repeat;
+	display: inline-block;
+	height: 45px;
+	width: 45px;
+	float: left;
+}
+
+.footTop .botTit .col01 i {
+	background-position: -106px -325px;
+}
+
+.footTop .botTit .col02 i {
+	background-position: -106px -370px;
+}
+
+.footTop .botTit .col03 {
+	padding: 0;
+}
+
+.footTop .botTit .col03 i {
+	background: url(../img/mall/sprite0523.png) 3px -465px no-repeat;
+	width: 293px;
+	height: 84px;
+}
+
+.footTop .botTit .col04 i {
+	background-position: -106px -415px;
+}
+
+.footTop .botTit .col05 i {
+	background-position: -106px -460px;
+}
+
+.footTop .botTit .col05 {
+	margin-right: 0;
+}
+
+.footTop .botTit li span {
+	display: inline-block;
+	float: left;
+}
+
+.footTop .botNav {
+	margin: 0 0 35px 10px;
+	overflow: hidden;
+}
+
+.footTop .botNav .botNavCol {
+	margin-right: 112px;
+	float: left;
+}
+
+.footTop .botNav .botNavCol a:hover {
+	color: #f20088;
+}
+
+.footTop .botNav .botNavCol dt {
+	font: bold 15px/36px "微软雅黑";
+}
+
+.footTop .botNav .botNavCol dd a {
+	color: #666;
+	display: block;
+	font: normal 13px/22px "微软雅黑";
+}
+
+.footTop .botNav .botMap {
+	float: right;
+	margin-right: 0;
+	height: 173px;
+	width: 450px;
+}
+
+.footTop .botNav .botMap a {
+	background: url(../img/mall/sprite0523.png) 0 -243px no-repeat;
+	display: block;
+	height: 173px;
+	width: 450px;
+	font-size: 0;
+	line-height: 0;
+}
+
+.footTop .botLink {
+	border: solid #e2e2e2;
+	border-width: 1px 0;
+	overflow: hidden;
+	margin-bottom: 35px;
+	padding: 15px 30px 15px 10px;
+	position: relative;
+}
+
+.footTop .botLink .botLinkCon a:hover {
+	color: #f20088;
+}
+
+.footTop .botLink .botLinkCon dt {
+	font-weight: bold;
+	float: left;
+	width: 65px;
+}
+
+.footTop .botLink .botLinkCon dd {
+	width: 1095px;
+	float: left;
+	line-height: 22px;
+	height: 44px;
+	overflow: hidden;
+}
+
+.footTop .botLink .botLinkCon .linkHeight {
+	height: 66px;
+}
+
+.footTop .botLink .botLinkCon dd a {
+	float: left;
+	color: #909090;
+	white-space: nowrap;
+}
+
+.footTop .botLink .botLinkCon dd span {
+	float: left;
+	color: #909090;
+	margin: 0 6px;
+}
+
+.footTop .botLink i {
+	background: url(../img/mall/sprite0519.png) -93px -504px no-repeat;
+	height: 19px;
+	width: 57px;
+	font-size: 0;
+	line-height: 0;
+	position: absolute;
+	bottom: 17px;
+	left: 8px;
+}
+
+.footTop .botLink .linkMore {
+	cursor: pointer;
+	background: url(../img/mall/sprite0519.png) no-repeat;
+	height: 16px;
+	width: 16px;
+	font-size: 0;
+	line-height: 0;
+	position: absolute;
+	bottom: 17px;
+	right: 10px;
+}
+
+.footTop .botLink .linkMore.hoverUp {
+	background-position: -117px -524px;
+}
+
+.footTop .botLink .linkMore.hoverUp.hoverDown {
+	background-position: -135px -524px;
+}
+
+.qqHide {
+	display: none;
+}
+
+footer .footDown {
+	background-color: white;
+	overflow: hidden;
+}
+
+footer .footDown .botSafeWrap {
+	width: 1200px;
+	margin: 0 auto;
+	padding: 35px 0;
+}
+
+footer .footDown .botSafeWrap .botSafeNav {
+	height: 40px;
+	border-bottom: solid 1px #f6f6f6;
+	padding-bottom: 30px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+footer .footDown .botSafeWrap .botSafeNav a {
+	background: url(../img/mall/sprite0519.png) no-repeat;
+	display: inline-block;
+	float: left;
+	font-size: 0;
+	line-height: 0;
+	margin-right: 57px;
+}
+
+footer .footDown .botSafeWrap .botSafeNav .alipay {
+	background-position: 0 -559px;
+	height: 27px;
+	width: 78px;
+}
+
+footer .footDown .botSafeWrap .botSafeNav .bankUser {
+	background-position: 0 -585px;
+	height: 27px;
+	width: 143px;
+}
+
+footer .footDown .botSafeWrap .botSafeNav .network {
+	background-position: 0 -613px;
+	height: 36px;
+	width: 96px;
+}
+
+footer .footDown .botSafeWrap .botSafeNav .unInfo {
+	background-position: 0 -650px;
+	height: 30px;
+	width: 85px;
+}
+
+footer .footDown .botSafeWrap .botSafeNav .consumer {
+	background-position: 0 -715px;
+	height: 36px;
+	width: 117px;
+}
+
+footer .footDown .botSafeWrap .botSafeNav .knetseal {
+	background: none;
+	height: 34px;
+	width: 93px;
+}
+
+footer .footDown .botSafeWrap .botSafeNav .gdws {
+	background-position: 0 -797px;
+	height: 35px;
+	width: 99px;
+}
+
+footer .footDown .botSafeWrap p {
+	color: #898989;
+	width: 555px;
+	float: left;
+	margin-top: 15px;
+}
+
+footer .footDown .botSafeWrap p a {
+	color: #666;
+	text-decoration: none;
+}
+
+footer .footDown .botSafeWrap .qrcode {
+	display: block;
+	float: right;
+	width: 424px;
+	height: 90px;
+	margin: -17px 0px 0px 0px;
+	background: url(../img/mall/QRcode.jpg) left center no-repeat;
+}
+
+footer .footDown .botSafeWrap p {
+	color: #898989;
+	width: 555px;
+	float: left;
+	margin-top: 15px;
+}
+
+footer .footDown .botSafeWrap .qrcode {
+	display: block;
+	float: right;
+	width: 424px;
+	height: 90px;
+	margin: -17px 0px 0px 0px;
+	background: url(../img/mall/QRcode.jpg) left center no-repeat;
+}
+
+footer .footDown .botSafeWrap .botLogo {
+	margin-right: 0;
+	margin-top: 22px;
+	background: url(../img/mall/sprite0523.png) 0 -417px no-repeat;
+	float: right;
+	height: 47px;
+	width: 222px;
+}
+#rightBar{
+position: absolute;
+top: 693px;
+height: 364px;
+width: 97px;
+left: 50%;
+margin-left: 640px;
+}
+.Allselect{
+	width: 97px;
+z-index: 100;
+height: 364px;
+position: relative;
+}
+.Allselect a{
+	background: url(../img/mall/rightBarN.png) no-repeat;
+	display: block;
+}
+.Allselect .girlTop{
+	width: 97px;
+height: 73px;
+background-position: 0 -65px;
+}
+.Allselect .kfCenter{
+	width: 80px;
+height: 50px;
+background-position: 0 -138px;
+}
+.Allselect .twoCode{
+	width: 80px;
+height: 67px;
+background-position: 0 -188px;
+}
+.Allselect .twoCode:hover{
+	background-position:-100px -188px;
+}
+.Allselect .shoppingCart{
+	width: 80px;
+height: 53px;
+background-position: 0 -255px;
+}
+.Allselect .shoppingCart:hover{
+	background-position: -100px -255px;
+}
+.Allselect .myOrder{
+	width: 80px;
+height: 48px;
+background-position: 0 -308px;
+}
+.Allselect .myOrder:hover{
+	background-position: -100px -308px;
+}
+.Allselect .backTop{
+	width: 80px;
+height: 60px;
+background-position: 0 -356px;
+}
+.Allselect .backTop:hover{
+	background-position: -100px -356px;
+
+}
+.Allselect .closeBar{
+	width: 80px;
+height: 13px;
+background-position: 0 -416px;
+}
+.Allselect .closeBar:hover{
+	background-position: -100px -416px;
+
+}

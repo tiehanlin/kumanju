@@ -1,0 +1,83 @@
+.eyesImg{
+	width: 980px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.knowsMain{
+	margin: 0 auto;
+	margin-top: 20px;
+
+	width: 980px;
+}
+.knowsMain .knowsLeft{
+	float: left;
+	width: 238px;
+
+
+}
+
+.knowsMenuTop{
+	background: url(../img/knows/know_sprite.png) 0 0 no-repeat;
+    height: 61px;
+}
+.knowsMenulist{
+	background-color: #f9f9f9;
+    border: solid #eaeaea;
+    border-width: 0 1px;
+    padding: 31px 13px 0px;
+}
+.knowsMenulist ul li{
+	margin-bottom: 26px;
+}
+.knowsMenulist ul li a{
+	background: url(../img/knows/know_sprite.png) 0 -110px no-repeat;
+    display: block;
+    width: 168px;
+    height: 39px;
+    font: bold 14px/39px "微软雅黑";
+    color: #333;
+    padding-left: 42px;
+}
+.knowsMenulist ul li a.hover{
+	background-position: 0 -70px;
+	color: white;
+}
+.knowsMenulist ul li a:hover{
+	background-position: 0 -70px;
+	color: white;
+}
+.knowsRight>div{
+	display: none;
+}
+.knowsRight>div:first-child{
+	display: block;
+}
+.knowMenuBot{
+	background: url(../img/knows/know_sprite.png) 0 -62px no-repeat;
+    height: 7px;
+}
+.knowsMain .knowsRight{
+	float: right;
+	width: 649px;
+	border: 1px solid  #eaeaea;
+	padding: 22px 36px;
+}
+.knowsRight h2{
+	font-size: 18px;
+    font-weight: bold;
+    margin: 20px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+}
+.knowsRight .introduce02 h2{
+	font-size: 40px;
+}
+.knowsRight p{
+	text-indent: 24px;
+	line-height: 2;
+}
+.knowsRight img{
+	display: block;
+	margin: 0 auto;
+}
